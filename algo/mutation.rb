@@ -3,6 +3,19 @@
 # the first string, and false otherwise.
 
 def mutation?(base_word, mutation)
+   x = 0
+   y = mutation.length
+    y.times do
+        if base_word.include?(mutation[x])
+            x += 1
+        else
+            return false
+            break
+        end
+        if x = y - 1
+            return true
+        end
+    end
 
 end
 
