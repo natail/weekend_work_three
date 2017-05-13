@@ -32,8 +32,8 @@ class Remote
         @volume -= 1
     end
 
-    def set_channel(channel)
-        @channel = channel
+    def set_channel(new_channel)
+        @channel = new_channel
     end
 end
 

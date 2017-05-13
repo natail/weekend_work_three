@@ -47,5 +47,5 @@ p reservation
 reservation.add_a_crib
 p reservation
 
-reservation.add_a_custom_amenity "pull out couch"
+reservation.add_a_custom_amenity("pull out couch")
 p reservation
